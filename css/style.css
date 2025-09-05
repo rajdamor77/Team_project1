@@ -11,12 +11,14 @@ header {
   background:black;
 }
 
-.container .logo img{
-  margin: 5px;
+header .container .logo image{
+  padding-bottom: 100px;
 }
 
-.logo span {
-  color: #f44336;
+
+
+.container nav{
+
 }
 
 nav ul {
@@ -38,11 +40,8 @@ nav ul li a.active {
 }
 
 .call-us {
+  display: flex;
   font-weight: 600;
   color: #fff;
 }
 
-.call-us i {
-  color: #f44336;
-  margin-right: 5px;
-}
