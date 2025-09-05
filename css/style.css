@@ -1,0 +1,48 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  background:black;
+}
+
+.container .logo img{
+  margin: 5px;
+}
+
+.logo span {
+  color: #f44336;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #f44336;
+}
+
+.call-us {
+  font-weight: 600;
+  color: #fff;
+}
+
+.call-us i {
+  color: #f44336;
+  margin-right: 5px;
+}
