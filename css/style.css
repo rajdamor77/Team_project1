@@ -1,26 +1,31 @@
-header {
-  position: fixed;
-  width: 100%;
+header .container{
+  position: absolute;
+  /* width: 100%; */
   top: 0;
   left: 0;
-  padding: 20px 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 1000;
- 
+  right: 0;
+  padding: 28px 20px;
 }
 
+.container .logo {
+  
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+}
 
-
+header nav {
+  margin-left: auto;
+  align-items: center;
+}
 
 nav ul {
   list-style: none;
-  display: flex;
   gap: 20px;
 }
 
 nav ul li a {
+ font-family: 'Hind', sans-serif;
   text-decoration: none;
   color: #fff;
   font-weight: 500;
@@ -32,9 +37,67 @@ nav ul li a.active {
   color: #f44336;
 }
 
-.call-us {
-  display: flex;
-  font-weight: 600;
+nav .call-icon{
+  margin-left: 20px;
+  color: #f44336;
+  font-size: ;
+}
+
+nav .call-us p{
+  font-size: 13px;
+  font-weight: 400;
+  
+  margin-left: 5px;
+  margin-bottom: 1px;
+  top: 3px;
+  /* font-weight: 600; */
+  color: #dc2751;;
+  text-transform:capitalize;
+  line-height: 25px;
+
+}
+
+nav .call-us h5{
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  
+} 
+
+/* main */
+
+
+main .container{
+  background:  url(../img/3\ copy.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100vh;
+    /* width: 100%; */
+}
+
+main .main-content{
+  margin-top: 300px;  
+  /* line-height: 120px;  */
+  /* font-weight: 900; */
   color: #fff;
 }
 
+.main-content h1{
+  font-size: 100px;
+}
+
+.main-content p{
+  font-size: 16px;
+  color:#FFFFFF;
+}
+
+.main-content .btn-1{
+  font-size: 16px;
+  font-family:Poppins, sans-serif;
+  color: #FFFFFF;
+  background-color: #DC2751;
+  padding: 20px 50px;
+  border-radius: 10%;
+}
