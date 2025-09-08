@@ -40,11 +40,8 @@ nav ul li a.active {
 nav .call-icon{
   margin-left: 30px;
   color: #f44336;
-<<<<<<< HEAD
  
-=======
   
->>>>>>> main
 }
 
 nav .call-us p{
@@ -125,6 +122,8 @@ main .main-content{
     line-height: 22px;
     font-weight: 400;
     margin:0;
+    color:#DC2751;
+
 }
 
 .our-services .header h2{
@@ -134,12 +133,13 @@ main .main-content{
     font-weight: 400;
     margin-bottom: 15px;
     position: relative;
+    color: #FFFFFF;
 }
 
 .our-services .line-center{
     width: 70px;
     position: absolute;
-    left: 600px;
+    left: 820px;
     height: 20px;
     /* margin:0; */
     border-top: 3px solid #dc2751;
