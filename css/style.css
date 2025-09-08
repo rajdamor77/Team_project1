@@ -40,18 +40,17 @@ nav ul li a.active {
 nav .call-icon{
   margin-left: 20px;
   color: #f44336;
-  font-size: ;
+ 
 }
 
 nav .call-us p{
   font-size: 13px;
   font-weight: 400;
-  
   margin-left: 5px;
   margin-bottom: 1px;
   top: 3px;
   /* font-weight: 600; */
-  color: #dc2751;;
+  color: #dc2751;
   text-transform:capitalize;
   line-height: 25px;
 
