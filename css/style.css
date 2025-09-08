@@ -38,9 +38,13 @@ nav ul li a.active {
 }
 
 nav .call-icon{
-  margin-left: 20px;
+  margin-left: 30px;
   color: #f44336;
+<<<<<<< HEAD
  
+=======
+  
+>>>>>>> main
 }
 
 nav .call-us p{
@@ -100,3 +104,50 @@ main .main-content{
   padding: 20px 50px;
   border-radius: 10%;
 }
+
+
+
+/* our services */
+
+.our-services .container{
+    background-color: black;
+}
+.our-services .servies .service_item{
+    padding: 75px 30px 15px;
+    margin:25px;
+    background-color:#101010;
+    border-radius: 20px;
+}
+
+.our-services .header p{
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 400;
+    margin:0;
+}
+
+.our-services .header h2{
+    font-size: 48px;
+    text-align: center;
+    line-height: 60px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.our-services .line-center{
+    width: 70px;
+    position: absolute;
+    left: 600px;
+    height: 20px;
+    /* margin:0; */
+    border-top: 3px solid #dc2751;
+}
+
+
+.our-services .servies .service_item .svg img{
+    width: 80px;
+    height: 80px;
+}
+
