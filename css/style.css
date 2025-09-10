@@ -8,7 +8,6 @@ header .container{
 }
 
 .container .logo {
-  
   width: 150px;
   text-align: center;
   cursor: pointer;
@@ -108,13 +107,16 @@ main .main-content{
 
 .our-services .container{
     background-color: black;
+   padding: 130px 0px;
 }
 .our-services .servies .service_item{
-    padding: 75px 30px 15px;
+    padding: 50px 30px 60px 30px;
     margin:25px;
     background-color:#101010;
     border-radius: 20px;
 }
+
+
 
 .our-services .header p{
     font-size: 18px;
@@ -130,10 +132,27 @@ main .main-content{
     font-size: 48px;
     text-align: center;
     line-height: 60px;
-    font-weight: 400;
+    font-weight: 900;
     margin-bottom: 15px;
     position: relative;
     color: #FFFFFF;
+}
+
+
+.our-services .service_item h4{
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 800;
+
+  /*  */
+
+}
+
+
+.our-services .service_item p{
+  color: #CCCCCC;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .our-services .line-center{
@@ -147,7 +166,58 @@ main .main-content{
 
 
 .our-services .servies .service_item .svg img{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
+    margin-left:105px;
 }
 
+.our-services .servies .card-1 {
+  background-color: #dc2751;
+}
+
+
+.our-services .servies .service_item .svg-2 {
+  width: 200px;
+  height: 100px;
+  margin-left:50px;
+  padding-top: 20px;
+}
+
+
+
+/* our-Agency video/Bg-img */
+
+.our-agency{
+  padding: 130px 0px;
+}
+
+.our-agency .container {
+ background: url(/img/6\ copy\ 2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat ;
+  background-position:top;
+  /* background-blend-mode: overlay; */
+  width: 1700px;
+  height: 500px;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+
+.our-agency .content{
+  padding: 130px 0px;
+}
+ .our-agency .content h4{
+    font-size: 18px;
+    color: #DC2751;
+ }
+
+ .our-agency .content h2{
+  font-size: 48px;
+  color: #FFFFFF;
+ }
+
+
+ .our-agency .vid-icon i{
+  font-size: 40px;
+  text-align: center;
+ }
