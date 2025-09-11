@@ -1,4 +1,4 @@
-header .container{
+header .container {
   position: absolute;
   /* width: 100%; */
   top: 0;
@@ -8,6 +8,7 @@ header .container{
 }
 
 .container .logo {
+
   width: 150px;
   text-align: center;
   cursor: pointer;
@@ -24,7 +25,7 @@ nav ul {
 }
 
 nav ul li a {
- font-family: 'Hind', sans-serif;
+  font-family: 'Hind', sans-serif;
   text-decoration: none;
   color: #fff;
   font-weight: 500;
@@ -36,65 +37,70 @@ nav ul li a.active {
   color: #f44336;
 }
 
-nav .call-icon{
+nav .call-icon {
   margin-left: 30px;
   color: #f44336;
+
  
   
 }
 
-nav .call-us p{
+nav .call-us p {
   font-size: 13px;
   font-weight: 400;
+
   margin-left: 5px;
   margin-bottom: 1px;
   top: 3px;
   /* font-weight: 600; */
+  color: #dc2751;
+  ;
+  text-transform: capitalize;
   color: #dc2751;
   text-transform:capitalize;
   line-height: 25px;
 
 }
 
-nav .call-us h5{
+nav .call-us h5 {
   color: white;
   font-size: 18px;
   line-height: 25px;
-  
-} 
+
+}
 
 /* main */
 
 
-main .container{
-  background:  url(../img/3\ copy.jpg);
+main .container {
+  background: url(../img/3\ copy.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
   height: 100vh;
-    /* width: 100%; */
+  /* width: 100%; */
 }
 
-main .main-content{
-  margin-top: 300px;  
+main .main-content {
+  margin-top: 300px;
   /* line-height: 120px;  */
   /* font-weight: 900; */
   color: #fff;
 }
 
-.main-content h1{
+.main-content h1 {
   font-size: 100px;
 }
 
-.main-content p{
+.main-content p {
   font-size: 16px;
-  color:#FFFFFF;
+  color: #FFFFFF;
 }
 
-.main-content .btn-1{
+.main-content .btn-1 {
   font-size: 16px;
-  font-family:Poppins, sans-serif;
+  font-family: Poppins, sans-serif;
   color: #FFFFFF;
   background-color: #DC2751;
   padding: 20px 50px;
@@ -105,10 +111,18 @@ main .main-content{
 
 /* our services */
 
+.our-services .container {
+  background-color: black;
 .our-services .container{
     background-color: black;
    padding: 130px 0px;
 }
+
+.our-services .servies .service_item {
+  padding: 75px 30px 15px;
+  margin: 25px;
+  background-color: #101010;
+  border-radius: 20px;
 .our-services .servies .service_item{
     padding: 50px 30px 60px 30px;
     margin:25px;
@@ -118,6 +132,12 @@ main .main-content{
 
 
 
+.our-services .header p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 0;
 .our-services .header p{
     font-size: 18px;
     text-align: center;
@@ -128,6 +148,13 @@ main .main-content{
 
 }
 
+.our-services .header h2 {
+  font-size: 48px;
+  text-align: center;
+  line-height: 60px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  position: relative;
 .our-services .header h2{
     font-size: 48px;
     text-align: center;
@@ -155,6 +182,12 @@ main .main-content{
   font-weight: 400;
 }
 
+.our-services .line-center {
+  width: 70px;
+  position: absolute;
+  left: 600px;
+  height: 20px;
+  border-top: 3px solid #dc2751;
 .our-services .line-center{
     width: 70px;
     position: absolute;
@@ -165,6 +198,10 @@ main .main-content{
 }
 
 
+.our-services .servies .service_item .svg img {
+  width: 80px;
+  height: 80px;
+}
 .our-services .servies .service_item .svg img{
     width: 100px;
     height: 100px;
@@ -274,3 +311,73 @@ main .main-content{
  }
 
 
+/* ####our_works#### */
+
+.our_works .container {
+  background-color: rgb(27, 27, 27);
+  padding: 130px 0px;
+}
+
+.our_works .works {
+  margin-top: 40px;
+}
+
+.our_works .works .works_img {
+  position: relative;
+   transition: 0.5s;
+}
+
+.our_works .works .works_img .portfolio {
+  transition: 0.5s;
+}
+
+.our_works .works .works_img:hover .portfolio {
+  filter: blur(0px) brightness(0.5);
+  transform: scale(0.95);
+}
+
+.our_works .header p {
+  color: #dc2751;
+}
+
+.our_works .works .works_img h2 {
+  color: white;
+  
+}
+
+.our_works .works .works_img h4 {
+  color: #dc2751;
+}
+
+.our_works .works .works_img .tag {
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 130px;
+  left: 0;
+  right: 0;
+  filter: none;
+  transform: translateX(40px);
+   transition: 1s;
+}
+
+.our_works .works .works_img:hover .tag {
+  display: block;
+  transform: translateX(0);
+}
+
+.our_works .header h2 {
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.our_works .line-center {
+  width: 70px;
+  position: absolute;
+  left: 600px;
+  height: 20px;
+  border-top: 3px solid #dc2751;
+}
