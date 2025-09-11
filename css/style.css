@@ -192,15 +192,18 @@ main .main-content{
 }
 
 .our-agency .container {
- background: url(/img/6\ copy\ 2.jpg);
+ background:  linear-gradient(
+      90deg,
+      rgb(0, 7, 26) 0%,
+      rgba(7, 14, 31, 0.644)15%
+    ),  url(/img/6\ copy\ 2.jpg);
   background-size: cover;
   background-repeat: no-repeat ;
   background-position:top;
   /* background-blend-mode: overlay; */
   width: 1700px;
   height: 500px;
-  background-attachment: fixed;
-  opacity: 0.9;
+  background-attachment: fixed
 }
 
 .our-agency .content{
@@ -209,15 +212,65 @@ main .main-content{
  .our-agency .content h4{
     font-size: 18px;
     color: #DC2751;
+    text-transform: capitalize;
+     font-family: var(--font-h4);
  }
 
  .our-agency .content h2{
   font-size: 48px;
+  font-weight: 900;
   color: #FFFFFF;
+  
  }
+
 
 
  .our-agency .vid-icon i{
+  position: relative;
+  display: inline-block;
   font-size: 40px;
+  font-size: 50px;
+  line-height: 110px;
   text-align: center;
+  color: #dc2751;
+  /* border: 2px solid whitesmoke; */
+  border-radius: 50%
  }
+
+
+
+ /* upcoming-event */
+
+.event {
+ 
+  
+}
+
+ .event .container{
+  padding: 130px 50px;
+  background: #101010;
+ }
+
+ .event .e-head h4{
+  color: #f44336;
+  font-size: 18px;
+  
+  font-family: var(--font-h4);
+ }
+
+ .event .e-head h2{
+  color: #fff;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  
+ }
+
+ .event .e-head .line-hr{
+  width: 70px;
+  border-top: 3px solid #dc2751;
+  display: block;
+  margin: 15px auto;
+ }
+
+
