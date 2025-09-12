@@ -9,6 +9,10 @@
   margin: 0 auto;
 }
 
+:root {
+  --font-h4:'Architects Daughter', cursive;
+}
+
 img {
   width: 100%;
   display: block;
