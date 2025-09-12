@@ -111,18 +111,11 @@ main .main-content {
 
 /* our services */
 
-.our-services .container {
-  background-color: black;
 .our-services .container{
     background-color: black;
    padding: 130px 0px;
 }
 
-.our-services .servies .service_item {
-  padding: 75px 30px 15px;
-  margin: 25px;
-  background-color: #101010;
-  border-radius: 20px;
 .our-services .servies .service_item{
     padding: 50px 30px 60px 30px;
     margin:25px;
@@ -131,13 +124,6 @@ main .main-content {
 }
 
 
-
-.our-services .header p {
-  font-size: 18px;
-  text-align: center;
-  line-height: 22px;
-  font-weight: 400;
-  margin: 0;
 .our-services .header p{
     font-size: 18px;
     text-align: center;
@@ -148,13 +134,6 @@ main .main-content {
 
 }
 
-.our-services .header h2 {
-  font-size: 48px;
-  text-align: center;
-  line-height: 60px;
-  font-weight: 400;
-  margin-bottom: 15px;
-  position: relative;
 .our-services .header h2{
     font-size: 48px;
     text-align: center;
@@ -182,12 +161,6 @@ main .main-content {
   font-weight: 400;
 }
 
-.our-services .line-center {
-  width: 70px;
-  position: absolute;
-  left: 600px;
-  height: 20px;
-  border-top: 3px solid #dc2751;
 .our-services .line-center{
     width: 70px;
     position: absolute;
