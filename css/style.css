@@ -41,8 +41,8 @@ nav .call-icon {
   margin-left: 30px;
   color: #f44336;
 
- 
-  
+
+
 }
 
 nav .call-us p {
@@ -57,7 +57,7 @@ nav .call-us p {
   ;
   text-transform: capitalize;
   color: #dc2751;
-  text-transform:capitalize;
+  text-transform: capitalize;
   line-height: 25px;
 
 }
@@ -111,41 +111,41 @@ main .main-content {
 
 /* our services */
 
-.our-services .container{
-    background-color: black;
-   padding: 130px 0px;
+.our-services .container {
+  background-color: #0b0a0a;
+  padding: 130px 0px;
 }
 
-.our-services .servies .service_item{
-    padding: 50px 30px 60px 30px;
-    margin:25px;
-    background-color:#101010;
-    border-radius: 20px;
-}
-
-
-.our-services .header p{
-    font-size: 18px;
-    text-align: center;
-    line-height: 22px;
-    font-weight: 400;
-    margin:0;
-    color:#DC2751;
-
-}
-
-.our-services .header h2{
-    font-size: 48px;
-    text-align: center;
-    line-height: 60px;
-    font-weight: 900;
-    margin-bottom: 15px;
-    position: relative;
-    color: #FFFFFF;
+.our-services .servies .service_item {
+  padding: 50px 30px 60px 30px;
+  margin: 25px;
+  background-color: #101010;
+  border-radius: 20px;
 }
 
 
-.our-services .service_item h4{
+.our-services .header p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 0;
+  color: #DC2751;
+
+}
+
+.our-services .header h2 {
+  font-size: 48px;
+  text-align: center;
+  line-height: 60px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  position: relative;
+  color: #FFFFFF;
+}
+
+
+.our-services .service_item h4 {
   color: #FFFFFF;
   font-size: 24px;
   font-weight: 800;
@@ -155,7 +155,7 @@ main .main-content {
 }
 
 
-.our-services .service_item p{
+.our-services .service_item p {
   color: #CCCCCC;
   font-size: 14px;
   font-weight: 400;
@@ -168,17 +168,18 @@ main .main-content {
     height: 20px;
     /* margin:0; */
     border-top: 3px solid #dc2751;
-}
+
 
 
 .our-services .servies .service_item .svg img {
   width: 80px;
   height: 80px;
 }
-.our-services .servies .service_item .svg img{
-    width: 100px;
-    height: 100px;
-    margin-left:105px;
+
+.our-services .servies .service_item .svg img {
+  width: 100px;
+  height: 100px;
+  margin-left: 105px;
 }
 
 .our-services .servies .card-1 {
@@ -189,13 +190,13 @@ main .main-content {
 .our-services .servies .service_item .svg-2 {
   width: 200px;
   height: 100px;
-  margin-left:50px;
+  margin-left: 50px;
   padding-top: 20px;
 }
 
 
 /* ####our_works#### */
-
+  
 .our_works .container {
   background-color: rgb(27, 27, 27);
   padding: 130px 0px;
@@ -225,8 +226,6 @@ main .main-content {
 
 .our_works .works .works_img h2 {
   color: white;
-  
-}
 
 .our_works .works .works_img h4 {
   color: #dc2751;
@@ -270,40 +269,39 @@ main .main-content {
 
 
 .our-agency .container {
- background:  linear-gradient(
-      90deg,
+  background: linear-gradient(90deg,
       rgb(0, 7, 26) 0%,
-      rgba(7, 14, 31, 0.644)15%
-    ),  url(/img/6\ copy\ 2.jpg);
+      rgba(7, 14, 31, 0.644)15%), url(/img/6\ copy\ 2.jpg);
   background-size: cover;
-  background-repeat: no-repeat ;
-  background-position:top;
+  background-repeat: no-repeat;
+  background-position: top;
   /* background-blend-mode: overlay; */
   width: 1700px;
   height: 500px;
   background-attachment: fixed
 }
 
-.our-agency .content{
+.our-agency .content {
   padding: 130px 0px;
 }
- .our-agency .content h4{
-    font-size: 18px;
-    color: #DC2751;
-    text-transform: capitalize;
-     font-family: var(--font-h4);
- }
 
- .our-agency .content h2{
+.our-agency .content h4 {
+  font-size: 18px;
+  color: #DC2751;
+  text-transform: capitalize;
+  font-family: var(--font-h4);
+}
+
+.our-agency .content h2 {
   font-size: 48px;
   font-weight: 900;
   color: #FFFFFF;
-  
- }
+
+}
 
 
 
- .our-agency .vid-icon i{
+.our-agency .vid-icon i {
   position: relative;
   display: inline-block;
   font-size: 40px;
@@ -313,9 +311,53 @@ main .main-content {
   color: #dc2751;
   /* border: 2px solid whitesmoke; */
   border-radius: 50%
- }
+}
 
+/* ####our-team ####*/
 
+.our_team .container {
+  background-color: #0b0a0a;
+  padding: 130px 0px;
+
+}
+
+.our_team .header p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 22px;
+  font-weight: 400;
+  color: #dc2751;
+  margin: 0;
+}
+
+.our_team .header h2 {
+  font-size: 48px;
+  text-align: center;
+  line-height: 60px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  color: white;
+  position: relative;
+}
+
+.our_team .line-center {
+  width: 70px;
+  position: absolute;
+  left: 600px;
+  height: 20px;
+  margin: 15px;
+  border-top: 3px solid #dc2751;
+}
+
+.our_team .team-members {
+  margin: 0 15px;
+  padding: 0 12px;
+
+}
+
+.our_team .team-members .members {
+  position: relative;
+}
 
  
 
@@ -329,22 +371,41 @@ main .main-content {
   
  }
 
- .event .e-head h4{
+.our_team .team-members .members .member-name h5 {
+  margin: 0 20px;
+  padding: 25px 20px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.our_team .team-members .members .member-name {
+  position: absolute;
+  top: 290px;
+  left: 10px;
+  width: 300px;
+}
+
+.our_team .team-members .members:hover .member-name {
+  filter: var(#dc2751);
+}
+
+
+.event .e-head h4 {
   color: #f44336;
   font-size: 18px;
-  
-  font-family: var(--font-h4);
- }
 
- .event .e-head h2{
+  font-family: var(--font-h4);
+}
+
+.event .e-head h2 {
   color: #fff;
   font-size: 48px;
   font-weight: 900;
   text-transform: capitalize;
-  
- }
 
- .event .e-head .line-hr{
+}
+
+.event .e-head .line-hr {
   width: 70px;
   border-top: 3px solid #dc2751;
   display: block;
@@ -440,6 +501,56 @@ main .main-content {
   opacity: 1;
 }
 
+/* /testimonials */
+
+.testimonials .container {
+  background-color: rgb(83, 76, 76);
+}
+
+.testimonials .card-item .card-info .author-img {
+  width: 10%;
+  height: 10%;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 2px solid rgba(220, 39, 81, 0.2);
+
+}
+
+.testimonials .card-item .card-info .author-img .img {
+  width: 100%;
+}
+
+.testimonials .card-item .card-info .info {
+  border-top: 2px solid rgba(220, 39, 81, 0.2);
+  text-align: left;
+  padding: 15px 0px 0px;
+}
+
+.testimonials .header p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 22px;
+  font-weight: 400;
+  color: #dc2751;
+  margin: 0;
+}
+
+.testimonials .header h2 {
+  font-size: 48px;
+  text-align: center;
+  line-height: 60px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  color: white;
+
+}
+
+.testimonials .card-item .card-info {
+  background: rgb(27, 27, 27);
+  padding: 45px 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
 
 
 
@@ -489,6 +600,32 @@ main .main-content {
 .new-card img{
  width:100px;
   
+}
+  
+  
+  
+ /* #### Our Clients #### */
+
+.our-clients .container{
+  background-color: black;
+}
+.our-clients .header p{
+    font-size: 18px;
+  text-align: center;
+  line-height: 22px;
+  font-weight: 400;
+  color: #dc2751;
+  margin: 0;
+}
+
+.our-clients .header h2{
+    font-size: 48px;
+  text-align: center;
+  line-height: 60px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  color: white;
+
 }
 
 
@@ -721,3 +858,6 @@ footer .bottom .btm-link li{
   right: 0;
 }
  */
+}
+
+
