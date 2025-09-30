@@ -161,14 +161,14 @@ main .main-content {
   font-weight: 400;
 }
 
-.our-services .line-center {
-  width: 70px;
-  position: absolute;
-  left: 820px;
-  height: 20px;
-  /* margin:0; */
-  border-top: 3px solid #dc2751;
-}
+.our-services .line-center{
+    width: 70px;
+    position: absolute;
+    left: 850px;
+    height: 20px;
+    /* margin:0; */
+    border-top: 3px solid #dc2751;
+
 
 
 .our-services .servies .service_item .svg img {
@@ -195,9 +195,8 @@ main .main-content {
 }
 
 
-
 /* ####our_works#### */
-
+  
 .our_works .container {
   background-color: rgb(27, 27, 27);
   padding: 130px 0px;
@@ -209,7 +208,7 @@ main .main-content {
 
 .our_works .works .works_img {
   position: relative;
-  transition: 0.5s;
+   transition: 0.5s;
 }
 
 .our_works .works .works_img .portfolio {
@@ -228,8 +227,6 @@ main .main-content {
 .our_works .works .works_img h2 {
   color: white;
 
-}
-
 .our_works .works .works_img h4 {
   color: #dc2751;
 }
@@ -243,7 +240,7 @@ main .main-content {
   right: 0;
   filter: none;
   transform: translateX(40px);
-  transition: 1s;
+   transition: 1s;
 }
 
 .our_works .works .works_img:hover .tag {
@@ -269,6 +266,7 @@ main .main-content {
 
 
 /* our-Agency video/Bg-img */
+
 
 .our-agency .container {
   background: linear-gradient(90deg,
@@ -361,6 +359,18 @@ main .main-content {
   position: relative;
 }
 
+ 
+
+
+
+/* upcoming-event */
+
+ .event .container{
+   padding: 130px 50px;
+  background: #101010;
+  
+ }
+
 .our_team .team-members .members .member-name h5 {
   margin: 0 20px;
   padding: 25px 20px;
@@ -379,13 +389,6 @@ main .main-content {
   filter: var(#dc2751);
 }
 
-/* upcoming-event */
-
-
-.event .container {
-  padding: 130px 50px;
-  background: #101010;
-}
 
 .event .e-head h4 {
   color: #f44336;
@@ -407,6 +410,95 @@ main .main-content {
   border-top: 3px solid #dc2751;
   display: block;
   margin: 15px auto;
+ }
+
+.event .date span{
+  color: #f44336;
+  font-size: 85px;
+  margin-right: 12px;
+  line-height: 48px;
+  font-weight: 900;
+  font-family: Poppins, sans-serif;
+  color: white transparent;
+  opacity: 0.8;
+}
+
+.event .date .time span{
+    display: block;
+  color: #CCCCCC;
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: 4px;
+
+}
+
+.event .text h5{
+  color: white;
+}
+
+.event .text p{
+  color:#DC2751;
+}
+
+.event .btn-1 {
+  color: #FFFFFF;
+  background-color: #DC2751;
+  padding: 20px 50px;
+  border-radius: 80px;
+  line-height: 50px;
+
+}
+
+.event .item-list .fr{
+  padding: 32px 32px;
+  border-bottom: 2px solid #dc2751;
+}
+
+.event .item-list .sr{
+   padding: 32px 32px;
+    border-bottom: 2px solid #dc2751;
+}
+
+.event .item-list .tr{
+   padding: 32px 32px;
+    border-bottom: 1px solid #dc2751;
+}
+
+
+.event .positione-re {
+  position: absolute;
+
+}
+
+.event .item-list .img{
+  position: absolute;
+  top: 50%;
+  right:0px;
+  transform: translateY(-50%);
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.event .item-list .img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 50%;
+  transform: scale(0);
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.img-grayscale img{
+  filter: grayscale(100%);
+}
+
+.event .item-list:hover .img img{
+  transform: scale(1);
+  opacity: 1;
 }
 
 /* /testimonials */
@@ -461,7 +553,58 @@ main .main-content {
 }
 
 
-/* #### Our Clients #### */
+
+/* Latest News */
+
+.news .container{
+  padding: 130px 0px;
+  display: block;
+  background-color:#101010;
+  position: relative;
+  overflow: hidden;
+}
+
+.news .container .n-head h6{
+  color: #DC2751;
+  font-size: 18px;
+
+}
+
+.news .container .n-head h2{
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.news .hr-line {
+  width: 70px;
+  border-top: 3px solid #dc2751 !important;
+  opacity: 1;
+ margin: 15px auto;
+}
+
+.new-card{
+  margin-bottom: 15px;
+  
+}
+
+.news  .news-card .img-f{
+
+  width: 368px;
+  margin-left: 30px;
+  
+}
+
+
+
+.new-card img{
+ width:100px;
+  
+}
+  
+  
+  
+ /* #### Our Clients #### */
 
 .our-clients .container{
   background-color: black;
@@ -484,3 +627,237 @@ main .main-content {
   color: white;
 
 }
+
+
+/* lets talk */
+
+.develop .container{
+  padding: 130px 0px;
+}
+
+
+
+.develop .container{
+  background: url(/img/banner2\ copy.jpg);
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 1700px;
+  height: 500px;
+}
+
+.develop .content h4{
+  font-size: 20px;
+  color: #dc2751;
+}
+
+
+.develop .content h2{
+  font-size: 75px;
+  color: #FFF;
+}
+
+.develop .content .dev-btn span{
+  color: #FFFFFF;
+  background-color: #DC2751;
+  padding: 20px 50px;
+  border-radius: 80px;
+  line-height: 50px;
+}
+
+.develop .content .dev-btn .plan-icon{
+  color:#101010;
+  background-color:#FFF;
+  padding: 20px 50px;
+  border-radius: 80px;
+  line-height: 50px;
+  margin-left: 20px;
+}
+
+
+
+/* Footer Acens */
+
+footer .top .container{
+  padding: 120px 60px;
+  background-color:#101010;
+  display: block;
+  position: relative;
+}
+
+footer .top h4{
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.top span{
+  color:#dc2751;
+  
+}
+
+.top p{
+  font-size: 16px;
+  color: #ccc;
+}
+
+.top .social a{
+
+  width: 50px;
+  height: 50px;
+  border: 2px solid #dc2751;
+  color: #fff;
+  border-radius: 100%;
+  text-align: center;
+  overflow: hidden;
+  line-height: 45px;
+}
+
+
+.top h5{
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 900;
+}
+
+.top .list-style li a{
+  color: #FFF;
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.top .quick-link .list-style li a::before{
+  position: absolute;
+  top: 45%;
+  left:30%;
+  bottom: 0;
+  content: "";
+  width: 7px;
+  height: 7px;
+  background-color: #dc2751;
+  border-radius: 50%;
+}
+
+
+.top .c-info h5{
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 15px;
+  font-weight: 900;
+}
+
+.top .c-info p{
+  font-size: 16px;
+  color: #ccc;
+  margin: 0px 0px 15px;
+}
+
+.top .c-info .phn-num{
+  font-size: 24px;
+  color: #dc2751;
+  font-weight:600;
+  display: block;
+}
+
+.top .c-info .mail{
+  font-size: 16px;
+  color: #FFF;
+}
+
+.top .c-info .mail::before {
+  /* position: absolute;
+  bottom: 9px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color:#dc2751;
+  content:""; */
+
+}
+
+.top .sub h5{
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 15px;
+  font-weight:900;
+}
+
+.top .sub p{
+  color:#ccc;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.subscribe form{
+  position: relative;
+  margin-top:50px;
+}
+
+.top .subscribe form input{
+  width: 100%;
+  padding: 16px 60px 17px 16px;
+  /* border: 2px solid #dc2751; */
+  border-radius: 30px;
+  color: #FFF;
+  margin-bottom: 15px;
+  /* outline: none; */
+}
+
+.top .subscribe form input{
+  position: absolute;
+  color: #dc2751;
+  border-radius: 100%;
+  top: 5px;
+  right:5px;
+  cursor: pointer;
+  
+}
+
+/* bottom-footer */
+footer .bottom .container{
+  padding: 30px 60px;
+  background-color:#101010;
+  display: block;
+  border-top: 2px solid #dc2751 ;
+}
+
+
+footer .bottom .btm-link li{
+  display: inline-block;
+  margin: 0px 25px 5px 0px;
+}
+
+.bottom .btm-link a{
+  color: #ccc;
+  font-size: 14px;
+}
+
+.bottom p{
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom:5px;
+}
+
+.bottom span{
+  font-size:14px;
+  color: #ccc;
+  margin-left: 2px;
+}
+
+
+/* .bottom span p::before{
+  
+  background-color:#dc2751;
+  content: "";
+  height:2px;
+  bottom:9px;
+  left: 0;
+  right: 0;
+}
+ */
+}
+
+
